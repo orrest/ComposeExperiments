@@ -16,3 +16,4 @@ rootProject.name = "ComposeExperiments"
 include ':app'
 include ':lazycolumnrowstate'
 include ':pagerandcolumnscroll'
+include ':loadlocalimagewithcoiltoverticalgrid'
