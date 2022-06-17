@@ -19,7 +19,16 @@ class MainActivity : ComponentActivity() {
                     modifier = Modifier.fillMaxSize(),
                     color = MaterialTheme.colors.background
                 ) {
-                    PagerWithWebView()
+                    /*
+                    * TODO
+                    * The pager with lazy column will remember the position where it
+                    * left.
+                    * But things different when it comes to the lazy grid. The lazy grid's
+                    * position won't be remembered.
+                    *
+                    * WHY?
+                    * */
+                    PagerWithScaffoldLazyColumn()
                 }
             }
         }
